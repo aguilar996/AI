@@ -13,17 +13,8 @@ namespace AI_Aguilar.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult TensorExample_Jd()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
     }
