@@ -29,6 +29,10 @@ namespace AI_Aguilar
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/semantic.css", 
                 "~/Content/Site.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/tensorflow.js").Include(
+                "~/Scripts/tensorflow.js"
+            ));
         }
     }
 }
