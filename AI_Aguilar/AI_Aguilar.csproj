@@ -190,7 +190,22 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="graphics\sprites.zip" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="graphics\background.png" />
+    <Content Include="graphics\horn_body_filled.png" />
+    <Content Include="graphics\horn_tip_filled.png" />
+    <Content Include="graphics\pipe_body.png" />
+    <Content Include="graphics\pipe_marshmallow.png" />
+    <Content Include="graphics\pipe_marshmallow_fix.png" />
+    <Content Include="graphics\train.png" />
+    <Content Include="graphics\train2.png" />
+    <Content Include="lib\ga.js" />
+    <Content Include="lib\matrix.js" />
+    <Content Include="lib\matrix.test.js" />
+    <Content Include="lib\nn.js" />
+    <Content Include="Scripts\bird.js" />
+    <Content Include="Scripts\ga.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -199,10 +214,22 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\pipe.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\semantic.min.js" />
+    <Content Include="Scripts\sketch.js" />
     <Content Include="Scripts\tensorflow.js" />
+    <Content Include="Views\Home\graphics\sprites.zip" />
+    <None Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\graphics\background.png" />
+    <Content Include="Views\Home\graphics\horn_body_filled.png" />
+    <Content Include="Views\Home\graphics\horn_tip_filled.png" />
+    <Content Include="Views\Home\graphics\pipe_body.png" />
+    <Content Include="Views\Home\graphics\pipe_marshmallow.png" />
+    <Content Include="Views\Home\graphics\pipe_marshmallow_fix.png" />
+    <Content Include="Views\Home\graphics\train.png" />
+    <Content Include="Views\Home\graphics\train2.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -214,7 +241,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\TensorExample_Jd.cshtml" />
   </ItemGroup>
   <ItemGroup>

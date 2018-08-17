@@ -33,6 +33,16 @@ namespace AI_Aguilar
             bundles.Add(new ScriptBundle("~/bundles/tensorflow.js").Include(
                 "~/Scripts/tensorflow.js"
             ));
+
+            bundles.Add(new ScriptBundle("~/bundles/general").Include(
+            "~/lib/nn.js.js",
+            "~/lib/matrix.js",
+            //"~/lib/matrix.test.js",
+            "~/Scripts/sketch.js",
+            "~/Scripts/ga.js",
+            "~/Scripts/bird.js",
+            "~/Scripts/pipe.js" 
+            ));
         }
     }
 }
