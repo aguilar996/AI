@@ -33,7 +33,7 @@ function preload() {
     bgImg = loadImage('../../graphics/background.png');
 }
 function setup() {
-  let canvas = createCanvas(600, 400);
+  let canvas = createCanvas(800, 480);
  
    
   canvas.parent('canvascontainer');
@@ -67,11 +67,11 @@ function toggleState() {
   // Show the best bird
   if (runBest) {
     resetGame();
-    runBestButton.html('continue training');
+    runBestButton.html('Seguir Entrenando');
     // Go train some more
   } else {
     nextGeneration();
-    runBestButton.html('run best');
+    runBestButton.html('Resultado Entrenamiento');
   }
 }
 
@@ -174,7 +174,7 @@ function draw() {
   // Update DOM Elements
   highScoreSpan.html(tempHighScore);
   allTimeHighScoreSpan.html(highScore);
-  console.log()
+    console.log();
   // Draw everything!
  
    image(this.img ,0,0);
@@ -183,6 +183,7 @@ function draw() {
     pipes[i].show();
   }
 
+//flappy usara el json que armo como base dde datos de conocimientos
   if (runBest) {
     bestBird.show();
   } else {

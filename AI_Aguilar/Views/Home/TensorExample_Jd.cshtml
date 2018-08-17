@@ -22,27 +22,24 @@
 <body>
     <br /><br />
     <div class="ui grid">
-        <div class="ten wide column">
+        <div class="nine wide column">
             <div class="ui raised inverted segment">
                 <h3>Área Gráfica</h3>
-                <div id="canvascontainer" style="height: 55vh">
+                <div id="canvascontainer" style="height: 60vh">
                 </div>
             </div>
         </div>
         <div class="four wide column">
             <div class="  ui raised centered segment">
-                <h1> Controles</h1>
-                <p>
-
-                    <label class="ui large orange label"> Velocidad de Entrenamiento:</label>  <br />
-                    <div class="ui inverted  raised segment" style="width: 210px;">
-                        <input id="speedSlider" type="range" min="1" max="10" value="1"> <span class="ui huge green inverted label" id="speed">1</span>
-                    </div>
+                <h1> Información</h1>
+                <p> 
+                        <input id="speedSlider" hidden="hidden" type="range" min="1" max="10" value="1"> <span  hidden="hidden" class="ui huge hidden green inverted label" id="speed">1</span>
+                   
                      <br /> <label class="ui huge black label">Score Actual:</label> <span class="ui huge red label" id="hs">0</span>
                     <br /> <br /> <label class="ui huge black label">Record Score:</label> <span class="ui huge red large label" id="ahs">0</span>
                 </p>
                 <p>
-                    <button class="ui  green button" id="best">Ver Resultados de Entrenamieto</button>
+                    <button  hidden="hidden" class="ui  green button" id="best">Ver Resultados de Entrenamieto</button>
                 </p>
             </div>
         </div>

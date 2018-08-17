@@ -23,6 +23,7 @@ class NeuralNetwork {
   * if first argument is a NeuralNetwork the constructor clones it
   * USAGE: cloned_nn = new NeuralNetwork(to_clone_nn);
   */
+    //ARMA LA RED NEURONAL
   constructor(in_nodes, hid_nodes, out_nodes) {
     if (in_nodes instanceof NeuralNetwork) {
       let a = in_nodes;
@@ -62,6 +63,7 @@ class NeuralNetwork {
 
     // Generating the Hidden Outputs
     let inputs = Matrix.fromArray(input_array);
+      
     let hidden = Matrix.multiply(this.weights_ih, inputs);
     hidden.add(this.bias_h);
     // activation function!
@@ -70,8 +72,7 @@ class NeuralNetwork {
     // Generating the output's output!
     let output = Matrix.multiply(this.weights_ho, hidden);
     output.add(this.bias_o);
-    output.map(this.activation_function.func);
-
+    output.map(this.activation_function.func); 
     // Sending back to the caller!
     return output.toArray();
   }
